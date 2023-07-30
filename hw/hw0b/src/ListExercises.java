@@ -14,7 +14,7 @@ public class ListExercises {
 
     /** Returns a list containing the even numbers of the given list */
     public static List<Integer> evens(List<Integer> L) {
-        ArrayList<Integer> al = new ArrayList<>();
+        List<Integer> al = new ArrayList<>();
         for (int i: L) {
             if (i % 2 == 0) {
                 al.add(i);
